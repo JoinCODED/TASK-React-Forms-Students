@@ -1,22 +1,20 @@
-import { useState } from 'react'
-import './App.css';
-import Form from './Components/Form'
-import HeaderAndTitle from './Components/HeaderAndTitle'
-import StudentsList from './Components/StudentsList';
+import { useState } from "react";
+import "./App.css";
+import Form from "./Components/Form";
+import HeaderAndTitle from "./Components/HeaderAndTitle";
+import StudentsList from "./Components/StudentsList";
 
-function App() {
+const App = () => {
+  const [studentsInfo, setStudentsInfo] = useState([]);
+  const [show, setShow] = useState(false);
 
-  const [studentsInfo, setStudentsInfo] = useState([])
-  const [show, setShow] = useState(false)
-
-  const toggleShow = () => showList(!show);
+  const toggleShow = () => show(!show);
   return (
-
     <div className="App">
-      <HeaderAndTitle toglleShow={toggleShow}/>
+      <HeaderAndTitle toggleShow={toggleShow} />
       {show ? <StudentsList list={studentsInfo} /> : <Form />}
     </div>
   );
-}
+};
 
 export default App;
