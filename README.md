@@ -1,8 +1,15 @@
-# React-Forms
-
+# 📋 React-Forms
 
 ## Instructions
-Fork [this repo](https://github.com/JoinCODED/Task-react-forms) and clone
+- Fork and clone [this repository](https://github.com/JoinCODED/Task-react-forms) to your `Development` folder.
+
+
+## Objective and end result
+- Write the objective of the task.
+- If there are any images, make sure you resize them to around 880px maximum width. **Don't add big images**
+
+
+## 🍋 The basic challenge title
 
 ### 1. Add a student  
 1. in Form.js add the following input fields :
@@ -23,6 +30,5 @@ Professor x has his own reasons to delete some student from attending his work s
 1. add an on click function on delete element (in Student.js) to delete a student from the list, by calling a function from app and pass the id 
 2. create a delete function in app that uses the id to delete the student 
 
-### Challenge 
-create a form for updating students info 🤓
-
+## 🤼‍♂️ Challenge
+Create a form for updating students info 🤓
