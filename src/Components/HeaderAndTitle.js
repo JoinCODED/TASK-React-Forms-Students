@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HeaderAndTitle(props) {
+function HeaderAndTitle({showList,show}) {
     return (
         <>
             <header>
@@ -11,7 +11,7 @@ function HeaderAndTitle(props) {
 
             <div className="title" >
                 <h2>Register in Professor x workshop</h2>
-                <p onClick={() => props.showList(!props.show)}>Attendees</p>
+                <p onClick={() => showList(!show)}>Attendees</p>
             </div>
         </>
     )
