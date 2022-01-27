@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Student({student}) {
+function Student({ student }) {
     return (
 
         <div className="student">

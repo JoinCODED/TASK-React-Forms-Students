@@ -9,10 +9,11 @@ function App() {
   const [studentsInfo, setStudentsInfo] = useState([])
   const [show, setShow] = useState(false)
 
+  const toggleShow = () => showList(!show);
   return (
 
     <div className="App">
-      <HeaderAndTitle showList={setShow} show={show} />
+      <HeaderAndTitle toglleShow={toggleShow}/>
       {show ? <StudentsList list={studentsInfo} /> : <Form />}
     </div>
   );

@@ -3,10 +3,8 @@ import SideInfo from './SideInfo'
 
 
 function Form() {
-
     return (
         <div className="form-page">
-
             <form>
                 {/* to do :  create your form here  */}
             </form>

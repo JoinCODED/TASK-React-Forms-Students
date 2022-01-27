@@ -1,5 +1,6 @@
 import React from 'react'
 import profileImg from '../download.jpeg'
+
 function SideInfo() {
     return (
 
